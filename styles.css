@@ -14,15 +14,6 @@ body {
   padding: 15px 0;
   
 }
-.container{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
-  color: #000000;
-}
-
-.nav-item{
-  color:black;
-}
 
 .header__btn {
   background-color: #00bcd4;
@@ -32,6 +23,10 @@ body {
   font-weight: 600;
   border-radius: 3px;
   transition: 0.3s;
+}
+
+.header__home {
+  color: #0097a7;
 }
 
 .header__btn:hover {
@@ -52,7 +47,9 @@ body {
   object-fit: contain;
 }
 
-
+.nav-link{
+  color: #000000;
+}
 .header__title {
   font-family: 'questrial', sans-serif;
   font-weight: 700;
