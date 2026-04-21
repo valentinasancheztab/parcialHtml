@@ -1,6 +1,6 @@
 
 body {
-  font-family: 'questrial', sans-serif;
+  font-family: 'poppins', sans-serif;
 }
 
 * {
@@ -12,40 +12,62 @@ body {
 .header {
   background: white;
   padding: 15px 0;
+  
+}
+.container{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  color: #000000;
 }
 
-.container__title {
-  color: #00bcd4;
-}
-
-.header__link {
-  text-decoration: none;
-  color: #333;
-}
-
-.header__link--active {
-  color: #00bdd6;
+.nav-item{
+  color:black;
 }
 
 .header__btn {
-  background: #00bcd4;
+  background-color: #00bcd4;
   color: white;
   border: none;
-  padding: 8px 15px;
+  padding: 8px 18px;
+  font-weight: 600;
+  border-radius: 3px;
+  transition: 0.3s;
 }
+
+.header__btn:hover {
+  background-color: #0097a7;
+}
+
+
 .header__logo {
-  display: flex;          
-  align-items: center;    
-  gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
-.header__logo img {
-  width: 28px;
+
+
+.header__img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+
+.header__title {
+  font-family: 'questrial', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #00bcd4;
+  margin: 0;
+}
+.dropdown-menu{
+  color: #00bcd4;
 }
 
 .hero {
   height: 100vh;
 
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  background: linear-gradient(#00000099, rgba(0,0,0,0.6)),
               url("fondo.jpg");
 
   background-size: cover;
@@ -58,11 +80,13 @@ body {
 
 .hero__title {
   color: white;
-  font-size: 48px;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .hero__text {
   color: white;
+  font-size: 20px;
 }
 
 
