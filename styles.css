@@ -20,7 +20,7 @@
 }
 
 .header__link--active {
-  color: #00bcd4;
+  color: #00bdd6;
 }
 
 .header__btn {
@@ -28,6 +28,14 @@
   color: white;
   border: none;
   padding: 8px 15px;
+}
+.header__logo {
+  display: flex;          
+  align-items: center;    
+  gap: 10px;
+}
+.header__logo img {
+  width: 28px;
 }
 
 .hero {
@@ -43,7 +51,7 @@
   align-items: center;
 }
 
-/* IMPORTANTE */
+
 .hero__title {
   color: white;
   font-size: 48px;
